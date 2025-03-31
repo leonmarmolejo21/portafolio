@@ -1,0 +1,173 @@
+body
+{
+    font-family: Normal;
+    background-color: #00091A;
+}
+h3, h4
+{
+    font-family: titles;
+}
+.contenedorEnlaces
+{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.contenedorEnlaces img
+{
+    height: 250px;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+.contenedorEnlaces img:hover
+{
+    transform: scale(1.05);
+}
+.informacion
+{
+    background-color: #121F38;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.informacion h4
+{
+    margin: 25px 0 2px 0;
+    font-size: 17px;
+}
+.informacion p
+{
+    text-align: justify;
+}
+.informacion ul
+{
+    padding: 0 0 0 20px;
+}
+.recuadrosEnlaces
+{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.recuadrosEnlaces img
+{
+    height: 75px;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+.recuadrosEnlaces img:hover
+{
+    transform: scale(1.1);
+}
+.noticias
+{
+    margin: 15px;
+}
+.botonesNoticias
+{
+    display: flex;
+    margin: 15px 0;
+}
+.botonesNoticias a
+{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px 0 0;
+    padding: 8px 12px;
+    background-color: #121F38;
+    border-radius: 4px; 
+    transition: 0.3s ease;
+}
+.botonesNoticias a:hover
+{
+    background-color: #C60428;  
+}
+.palmares {
+    margin: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.bloque {
+    padding: 15px;
+    margin: 15px;
+    background-color: #121F38;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+.bloque img {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+/* Contenedor para los textos */
+.bloque .texto-contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Estilo para el texto normal */
+.bloque p:not(.palmaresN) {
+    margin: 0 0 5px 0; /* Espacio entre el párrafo normal y el número */
+    font-size: 16px;
+}
+
+.palmaresN {
+    font-weight: 1000;
+    font-size: 24px;
+    color: #DC052D; /* Color rojo característico del Bayern */
+    margin: 0 0 0 15px;
+}
+.boletinNoticias
+{
+    margin: 5px;
+    background-color: #121F38;
+    padding: 25px;
+    border-radius: 15px;
+}
+.negritas
+{
+    font-size: 24px;
+    font-weight: 1000;
+    margin: 0 0 15px 0;
+}
+.boletinNoticias input[type=email]
+{
+    width: 500px;
+    height: 40px;
+    padding: 1px 10px;
+    color: white;
+    font-family: normal;
+    font-weight:400;
+    border: none;
+    border-radius: 5px;
+    background-color: #3d475a;
+}
+.boletinNoticias input[type=email]:hover
+{
+    background-color: #4a566b;
+}
+.boletinNoticias input[type=submit]
+{
+    color: white;
+    font-family: normal;
+    font-weight: 1000;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #C60428; 
+}
+.boletinNoticias input[type=submit]:hover
+{
+    background-color: #e7193f;
+}
+.boletinNoticias p
+{
+    text-align: justify;
+}
