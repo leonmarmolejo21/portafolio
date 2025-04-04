@@ -1,0 +1,93 @@
+/* Estilos base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+header, section, footer {
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+/* Sección unidades absolutas */
+.absolute {
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+}
+
+/* Sección unidades relativas */
+.relative {
+    background-color: #e1f5fe;
+    border: 1px solid #b3e5fc;
+}
+
+/* Cajas demostrativas */
+.box {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* Unidades absolutas */
+.px {
+    width: 200px;
+    background-color: #e74c3c;
+}
+
+.pt {
+    width: 100pt;
+    background-color: #3498db;
+}
+
+.cm {
+    width: 5cm;
+    background-color: #2ecc71;
+}
+
+.mm {
+    width: 50mm;
+    background-color: #f39c12;
+}
+
+.in {
+    width: 2in;
+    background-color: #9b59b6;
+}
+
+/* Unidades relativas */
+.em {
+    width: 10em;
+    background-color: #1abc9c;
+}
+
+.rem {
+    width: 10rem;
+    background-color: #34495e;
+}
+
+.percent {
+    width: 50%;
+    background-color: #e67e22;
+}
+
+.vw {
+    width: 20vw;
+    background-color: #16a085;
+}
+
+.vh {
+    height: 10vh;
+    background-color: #8e44ad;
+}
