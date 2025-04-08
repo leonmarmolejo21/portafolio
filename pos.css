@@ -1,50 +1,60 @@
-.contenedor{
-	position: relative;
-	background: gray;
-	height: 100px;
-}
-.caja1{
-	position: relative;
-	background: orange;
-	height: 50px;
-	left: 10px;
-}
-.caja2{
-	position: absolute;
-	background: blue;
-	height: 50px;
-	width: 50px;
-	left: 50px;
-
+.contenedor {
+    position: relative;
+    background: #7C444F;
+    height: 200px;
+    width: 800px;
 }
 
-.caja3{
-	position: absolute;
-	background: pink;
-	height: 55px;
-	width: 50px;
-	left: 125px;
-	z-index: 2 ;
-
+.caja1 {
+    position: relative;
+    background: #F39E60;
+    height: 150px;
+    left: 75px;
+    width: 750px;
+    z-index: 1;
 }
 
-.caja4{
-	position: absolute;
-	background: pink;
-	height: 55px;
-	width: 50px;
-	left: 50px;
-	z-index: 3 ;
-
+.caja2 {
+    position: absolute;
+    background: #9F5255;
+    height: 85px;
+    width: 150px;
+    left: 50px;
+    top: 25px;
+    z-index: 1;
 }
 
-.caja5{
-	position: fixed;
-	background: pink;
-	height: 0px;
-	width: 0px;
-	left: 100px;
-	border: 2px solid red;
-	z-index: 4 ;
+.caja3 {
+    position: absolute;
+    background: #E16A54;
+    height: 125px;
+    width: 125px;
+    right: 100px;
+    top: 40px;
+    z-index: 2;
+}
 
+.caja4 {
+    position: absolute;
+    background: #C30E59;
+    height: 175px;
+    width: 175px;
+    top: 55px;
+    right: 120px;
+    z-index: 1;
+}
+
+.caja5 {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    background: #8D0B41;
+    color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #8D0B41;
+    z-index: 3;
 }
